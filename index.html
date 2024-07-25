@@ -1,9 +1,124 @@
+<!DOCTYPE html>
 <html>
 
+<head>
+    <title>Sam Roberts Portfolio</title>
+
+    <link href="css/style.css" type="text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://use.typekit.net/rja8dep.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.typekit.net/rja8dep.css">
+
+    <script src="script.js" async></script>
+
+</head>
+
 <body>
-  <h1>SAM</h1>
-  <p>Welcome to my website!</p>
-  <img src="https://content.codecademy.com/articles/github-pages-via-web-app/happy-ice-cream.gif" />
+    <header>
+        <h1>Sam Roberts</h1>
+        <nav class="nav">
+            <button>
+                <a href=#portfolio><p>Projects</p></a>
+            </button>
+            <button>
+                <a href=#skills><p>Skills</p></a>
+            </button>
+            <button>
+                <a href=#interests><p>Interests</p></a>
+            </button>
+            <button>
+                <a href="./contact.html"><p>Contact</p></a>
+            </button>
+        </nav>
+    </header>
+        <section class="pages">
+            <div id="portfolio">
+                <h2>My Portfolio <i class="arrow down"></i></h2>
+                <ul class="portfolio-list">
+                    <li>
+                        <p>Codecademy Project: <a href="https://github.com/robertssa89/2024-UEFA-tournament-predictor">Random Message Generator</a></p>
+                        <figure>
+                            <a href="https://github.com/robertssa89/2024-UEFA-tournament-predictor">
+                                <img src="images/UEFA-predictor-img.png" alt="screenshot of a github repository home page"/>
+                            </a>
+                            <br>
+                            <figcaption>Using javascript arrays and objects to output random messages</figcaption>
+                        </figure>
+                    </li>
+                    <li>
+                        <p>Codecademy Project: <a href="https://github.com/robertssa89/credit-card-checker/blob/main/main.js">Credit Card Checker</a></a></p>
+                        <figure>
+                            
+                            <a href="https://github.com/robertssa89/credit-card-checker/blob/main/main.js">
+                                <img src="images/credit-card-checker-img.png" alt="screenshot of some javascript code"/>
+                            </a>
+                            <br>
+                            <figcaption>Using Arrays in Javascript to validate credit cards</figcaption>
+                        </figure>
+                    </li>
+                    <li>
+                        <p>Codecademy Project: <a href="https://htmlpreview.github.io/?https://github.com/robertssa89/web-design-guide/blob/main/index.html">Website Design Guide</a></p>
+                        <figure>
+                            <a href="https://htmlpreview.github.io/?https://github.com/robertssa89/web-design-guide/blob/main/index.html">
+                                <img src="images/style-guide-img.png" alt="Preview image a website style guide I created"/>
+                            </a>
+                            <br>
+                            <figcaption>I used HTML and CSS to create a website style guide</figcaption>
+                        </figure>
+                    </li>
+                </ul>
+            </div>
+
+            <div id="skills">
+                <h2>Skills <i class="arrow down"></i></h2>
+                <p class="skill-list">HTML / CSS / Javascript</p>
+                <!--<ul>
+                    <li>
+                        <p>skill1</p>
+                    </li>
+                    <li>
+                        <p>skill2</p>
+                    </li>
+                    <li>
+                        <p>skill...</p>
+                    </li>
+                </ul>-->
+            </div>
+
+            <div id="interests">
+                <h2>Interests <i class="arrow down"></i></h2>
+                <ul class="interest-list">
+                    <li>
+                        <h3>Dad Jokes</h3>
+                        <p>I just welcomed my first little one to the world and am over the moon :D</p>
+                    </li>
+                    <li>
+                        <h3>Travel</h3>
+                        <p>I always love a good getaway... check a few pics from my trip around the world!</p>
+                    </li>
+                    <li>
+                        <h3>Rock Climbing</h3>
+                        <p>I'm always looking forward to next wall to climb</p>
+                    </li>
+                    <li>
+                        <h3>Photography</h3>
+                        <p>Quite the beginner but it's always fun to get out there and see things</p>
+                    </li>
+                    
+                </ul>
+            </div>
+        </section>
+        
+        <section class="about">
+            <h2>About Me</h2>
+            <img alt="Me at the grand canyon">
+            <p>This is some text about me</p>
+        </section>  
+    <footer>
+      <p>The footer</p> 
+    </footer>
 </body>
 
 </html>
